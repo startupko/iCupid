@@ -10,13 +10,13 @@ export default function Header() {
           <span className="text-2xl font-bold text-primary-text">iCupid</span>
         </div>
         <nav className="hidden md:flex items-center gap-6">
-          <a href="#features" className="text-primary-text/80 hover:text-primary-accent">功能特色</a>
-          <a href="#testimonials" className="text-primary-text/80 hover:text-primary-accent">用戶評價</a>
+          {/* <a href="#features" className="text-primary-text/80 hover:text-primary-accent">功能特色</a>
+          <a href="#testimonials" className="text-primary-text/80 hover:text-primary-accent">用戶評價</a> */}
           {/* <a href="#pricing" className="text-primary-text/80 hover:text-primary-accent">價格方案</a> */}
         </nav>
-        <button className="bg-gradient-primary text-white px-6 py-2 rounded-full hover:opacity-90 transition-opacity">
+        {/* <button className="bg-gradient-primary text-white px-6 py-2 rounded-full hover:opacity-90 transition-opacity">
           立即登入
-        </button>
+        </button> */}
       </div>
     </header>
   );
